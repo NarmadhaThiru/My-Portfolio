@@ -1,0 +1,25 @@
+/* src/components/About.css */
+.about-section {
+    padding: 8rem 0 4rem 0;
+    /* Adjust padding to clear fixed header */
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+}
+
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.about-section p {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,84 @@
+/* src/components/Projects.css */
+.projects-section {
+    padding: 4rem 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #007bff;
+}
+
+.projects-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.project-card p {
+    color: #666;
+    line-height: 1.6;
+    flex-grow: 1;
+    /* Allow description to take available space */
+}
+
+.project-tech {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-badge {
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #007bff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-links {
+    margin-top: 1.5rem;
+}
+
+.project-links a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+    background-color: #0056b3;
+}
